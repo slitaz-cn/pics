@@ -61,14 +61,13 @@ exports.doPost = function (req, res) {
       __dirname + "/../uploads/" + floder + "/" + ttt + ran + extname
     );
 
-    //     fs.rename(oldpath, newpath, function(err){
-    //         if(err){
-    //             res.send("改名失败");
-    //             return;
-    //         }
-    //         res.send("成功");
-    //     });
-    // 在下方手动输入上方代码，体验智能的代码补全功能
-  });
+         fs.rename(oldpath, newpath, function(err){
+             if(err){
+                 res.send("改名失败");
+                 return;
+             }
+             res.send("成功");
+         });
+    });
   return;
 };
