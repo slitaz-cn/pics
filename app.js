@@ -17,5 +17,5 @@ app.use(function (req, res) {
   res.render("err");
 });
 
-app.listen(80);
-console.log("服务已启动，端口号80...");
+app.listen(8084);
+console.log("服务已启动，端口号8084...");
