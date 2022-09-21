@@ -2,9 +2,8 @@
   "name": "nodealbum",
   "version": "1.0.0",
   "description": "write by Luca",
-  "main": "app.js",
   "scripts": {
-    "test": "echo \"No test specified\" "
+    "app": "node ./app.js"
   },
   "repository": {
     "type": "git",
